@@ -15,7 +15,6 @@ class MergeSort {
       }
     }
 
-    // Remaining elements of left half
     while (idx1 <= mid) {
       merged[x++] = arr[idx1++];
     }
