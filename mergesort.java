@@ -25,7 +25,6 @@ class MergeSort {
       merged[x++] = arr[idx2++];
     }
 
-    // Copying merged elements back to the original array
     for (int i = 0, j = si; i < merged.length; i++, j++) {
       arr[j] = merged[i];
     }
