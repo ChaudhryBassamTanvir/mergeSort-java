@@ -19,7 +19,6 @@ class MergeSort {
       merged[x++] = arr[idx1++];
     }
 
-    // Remaining elements of right half
     while (idx2 <= ei) {
       merged[x++] = arr[idx2++];
     }
