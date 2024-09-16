@@ -40,7 +40,7 @@ class MergeSort {
 
     divide(arr, si, mid); // Recursively sorting the left half
     divide(arr, mid + 1, ei); // Recursively sorting the right half
-    conquer(arr, si, mid, ei); // Merging the sorted halves
+    conquer(arr, si, mid, ei);
   }
 
   public static void main(String[] args) {
