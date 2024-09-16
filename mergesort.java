@@ -6,7 +6,6 @@ class MergeSort {
     int idx2 = mid + 1;
     int x = 0;
 
-    // Merging two halves
     while (idx1 <= mid && idx2 <= ei) {
       if (arr[idx1] <= arr[idx2]) {
         merged[x++] = arr[idx1++];
